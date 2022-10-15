@@ -33,8 +33,8 @@ graph TB
   end
 
   subgraph "Main Graph"
-  START[START] --> Node2[Node 2]
+  START[START PROGRAM] --> Node2[Node 2]
   Node2 --> SubGraph1[Jump to SubGraph1]
-  SubGraph1 --> END_PRGROGRAM[Final Thing]
+  SubGraph1 --> END_PRGROGRAM[STOP PROGRAM]
 end
 ```
