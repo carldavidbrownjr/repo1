@@ -59,6 +59,11 @@ end
 ```mermaid
 graph TB
 
+  subgraph "Shell Program"
+  userinput[Get Program Arguments] --> SubGraph1[Jump to Compression Class]
+  SubGraph1 --> printReport[Print Log Report]
+  printReport --> endprg[Exit Program]
+
   SubGraph1 --> SubGraph1Flow
   subgraph "Compress Data"
   SubGraph1Flow(SubNode 1)
@@ -66,10 +71,6 @@ graph TB
   SubGraph1Flow -- UnStructured Data -- DoCompression2 --> return[Return Data Structure]
   end
 
-  subgraph "Shell Program"
-  userinput[Get Program Arguments] --> SubGraph1[Jump to Compression Class]
-  SubGraph1 --> printReport[Print Log Report]
-  printReport --> endprg[Exit Program]
 end
 ```
 ---
