@@ -11,7 +11,7 @@
 block
 quotes
 >>>
-HTML Equivelent of an UNORDERED LIST is Hyphen.
+HTML Equivelent of an UNORDERED LIST is <kbd>-</kbd||<kbd>*</kbd>||<kbd>+</kbd>
 
 <UL>
 	<LI>Cat</LI>
