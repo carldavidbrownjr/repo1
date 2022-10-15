@@ -21,9 +21,9 @@
 	<LI>Turtle</LI>
 </UL>
 
-- Cat
-+ Dog
-* Turtle
+- <kbd>-</kbd>Cat
++ <kbd>+</kbd>Dog
+* <kbd>*</kbd>Turtle
 ---
 SIMPLE MERMAID FLOWCHART
 ```mermaid
