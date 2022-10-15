@@ -3,8 +3,17 @@ Citations:
 Lab, G. (n.d.). *Gitlab flavored markdown (GLFM).* GitLab. Retrieved October 15, 2022, from 
   https://docs.gitlab.com/ee/user/markdown.html 
 
-
-
+---
+## HTML Equivelent of an UNORDERED `<UL><LI></LI></UL>` is <kbd>-</kbd> or <kbd>*</kbd> or <kbd>+</kbd>
+- <kbd>-</kbd>Cat1
+- <kbd>-</kbd>Cat2
++ <kbd>+</kbd>Dog1
++ <kbd>+</kbd>Dog2
+* <kbd>*</kbd>Turtle1
+* <kbd>*</kbd>Turtle2
+---
+## Ordered Lists are enumerated with a number, period, space.
+1. <kbd>1</kbd><kbd>.</kbd><kbd> </kbd>
 ---
 
 ## Task Lists
@@ -16,15 +25,6 @@ Lab, G. (n.d.). *Gitlab flavored markdown (GLFM).* GitLab. Retrieved October 15,
    1. [ ] Advanced Mermaid Chart
    1. [~] Usable Enterprise Relational Diagrams
 
----
-
-## HTML Equivelent of an UNORDERED `<UL><LI></LI></UL>` is <kbd>-</kbd> or <kbd>*</kbd> or <kbd>+</kbd>
-- <kbd>-</kbd>Cat1
-- <kbd>-</kbd>Cat2
-+ <kbd>+</kbd>Dog1
-+ <kbd>+</kbd>Dog2
-* <kbd>*</kbd>Turtle1
-* <kbd>*</kbd>Turtle2
 ---
 ## SIMPLE MERMAID FLOWCHART
 ```mermaid
@@ -72,8 +72,5 @@ graph TB
 end
 ```
 ---
-## Tables
-| col1 | col2 | col3 |
-| a | b | c |
-| 1 | | 3 |
+
 ---
