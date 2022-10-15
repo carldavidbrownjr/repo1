@@ -27,6 +27,8 @@ end
 ```
 MORE ELABORATE MERMAID FLOWCHART
 ```mermaid
+graph TB
+
   SubGraph1 --> SubGraph1Flow
   subgraph "SubGraph 1 Flow"
   SubGraph1Flow(SubNode 1)
