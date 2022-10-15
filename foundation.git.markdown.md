@@ -1,5 +1,17 @@
-`RGBA(0,255,0,0.3)`GitLab Markdown Notes
+GitLab Markdown Notes
+[[_TOC_]]
+## HTML Equivelent of an UNORDERED LIST is Hyphen.
+>>>
+<UL>
+	<LI>Cat</LI>
+	<LI>Dog</LI>
+	<LI>Turtle</LI>
+</UL>
 
+- Cat
+- Dog
+- Turtle
+>>>
 1. [X] Unordered List
 1. [~] Add Extra Features free of charge to customer.
 1. [ ] Graphing
