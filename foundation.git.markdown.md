@@ -7,10 +7,6 @@
    1. [ ] Advanced Mermaid Chart
    1. [~] Usable Enterprise Relational Diagrams
 ---
->>>
-block
-quotes
->>>
 HTML Equivelent of an UNORDERED `<UL><LI></LI></UL>` is <kbd>-</kbd> or <kbd>*</kbd> or <kbd>+</kbd>
 
 <UL>
@@ -22,7 +18,7 @@ HTML Equivelent of an UNORDERED `<UL><LI></LI></UL>` is <kbd>-</kbd> or <kbd>*</
 - Cat
 - Dog
 - Turtle
-
+---
 SIMPLE MERMAID FLOWCHART
 ```mermaid
 graph TD;
@@ -68,3 +64,4 @@ graph TB
   SubGraph1 --> FinalThing[Final Thing]
 end
 ```
+---
