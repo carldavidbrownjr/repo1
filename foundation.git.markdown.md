@@ -1,24 +1,12 @@
-GitLab Markdown Notes
-[[_TOC_]]
-## HTML Equivelent of an UNORDERED LIST is Hyphen.
->>>
-<UL>
-	<LI>Cat</LI>
-	<LI>Dog</LI>
-	<LI>Turtle</LI>
-</UL>
-
-- Cat
-- Dog
-- Turtle
->>>
+#GitLab Markdown Notes
+---
 1. [X] Unordered List
 1. [~] Add Extra Features free of charge to customer.
 1. [ ] Graphing
    1. [x] Simple Mermaid Chart
    1. [ ] Advanced Mermaid Chart
    1. [~] Usable Enterprise Relational Diagrams
-
+---
 >>>
 block
 quotes
