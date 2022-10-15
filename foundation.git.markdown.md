@@ -1,4 +1,4 @@
-HTML Equivelents
+HTML Equivelent of an UNORDERED LIST is Hyphen.
 
 <UL>
 	<LI>Cat</LI>
@@ -9,3 +9,8 @@ HTML Equivelents
 - Cat
 - Dog
 - Turtle
+
+Graph Test
+```mermaid
+graph TD;
+  A-->B;
