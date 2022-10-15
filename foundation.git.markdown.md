@@ -26,4 +26,5 @@ graph TD;
   RUN_PROGRAM-->RUN_FALSE; 
   RUN_FALSE-->STOP;
   RUN_TRUE-->MAIN;
+  MAIN-->RUN_PROGRAM;
 ```
