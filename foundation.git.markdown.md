@@ -13,8 +13,16 @@ HTML Equivelent of an UNORDERED LIST is Hyphen.
 EXAMPLE MERMAID FLOWCHART
 ```mermaid
 graph TD;
-  START-->RUN_PROGRAM?;
-  RUN_PROGRAM?-->RUN_TRUE;
-  RUN_PROGRAM?-->RUN_FALSE;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+```mermaid
+graph TD;
+  START-->RUN_PROGRAM;
+  RUN_PROGRAM-->RUN_TRUE;
+  RUN_PROGRAM-->RUN_FALSE;
 end
 ```
