@@ -1,3 +1,16 @@
+GitLab Markdown Notes
+
+1. [x] Unordered List
+1. [~] Add Extra Features free of charge to customer.
+1. [ ] Graphing
+   1. [x] Simple Mermaid Chart
+   1. [ ] Advanced Mermaid Chart
+   1. [~] Usable Enterprise Relational Diagrams
+
+>>>
+* block
+- quotes
+>>>
 HTML Equivelent of an UNORDERED LIST is Hyphen.
 
 <UL>
@@ -23,7 +36,21 @@ graph TD;
 ```
 ADVANCED MERMAID FLOWCHART
 ```mermaid
+graph TB
 
+  SubGraph1 --> SubGraph1Flow
+  subgraph "Maintenance Tasks"
+  SubGraph1Flow(SubNode 1)
+  SubGraph1Flow -- Choice1 --> DoChoice1
+  SubGraph1Flow -- Choice2 --> DoChoice2
+  end
+
+  subgraph "Main Graph"
+  START[START PROGRAM] --> HSKP[M]
+  MAINTENANCE--> HSKP[run]
+  SubGraph1 --> END_PRGROGRAM[STOP PROGRAM]
+end
+```
 
 ```mermaid
 graph TB
