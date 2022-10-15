@@ -21,20 +21,3 @@ graph TD;
   MAIN-->RUN_PROCESSES;
   MAIN-->MAIN_LOOP_EVALUATION;
 ```
-ADVANCED MERMAID FLOWCHART
-```mermaid
-graph TB
-
-  SubGraph1 --> SubGraph1Flow
-  subgraph "SubGraph 1 Flow"
-  SubGraph1Flow(SubNode 1)
-  SubGraph1Flow -- Choice1 --> DoChoice1
-  SubGraph1Flow -- Choice2 --> DoChoice2
-  end
-
-  subgraph "Main Graph"
-  START[START PROGRAM] --> MAINTENANCE[Check Maintenance Items]
-  MAINTENANCE--> SubGraph1[Jump to SubGraph1]
-  SubGraph1 --> END_PRGROGRAM[STOP PROGRAM]
-end
-```
