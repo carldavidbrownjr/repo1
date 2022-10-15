@@ -13,7 +13,8 @@ Lab, G. (n.d.). *Gitlab flavored markdown (GLFM).* GitLab. Retrieved October 15,
 * <kbd>*</kbd>Turtle2
 ---
 ## Ordered Lists are enumerated with a number, period, space.
-1. `1.`
+1. `1.`Text
+2. Text
 ---
 
 ## Task Lists
