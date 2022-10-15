@@ -14,16 +14,12 @@
 ---
 
 ##HTML Equivelent of an UNORDERED `<UL><LI></LI></UL>` is <kbd>-</kbd> or <kbd>*</kbd> or <kbd>+</kbd>
-
-<UL>
-	<LI>Cat</LI>
-	<LI>Dog</LI>
-	<LI>Turtle</LI>
-</UL>
-
-- <kbd>-</kbd>Cat
-+ <kbd>+</kbd>Dog
-* <kbd>*</kbd>Turtle
+- <kbd>-</kbd>Cat1
+- <kbd>-</kbd>Cat2
++ <kbd>+</kbd>Dog1
++ <kbd>+</kbd>Dog2
+* <kbd>*</kbd>Turtle1
+* <kbd>*</kbd>Turtle2
 ---
 SIMPLE MERMAID FLOWCHART
 ```mermaid
