@@ -65,7 +65,7 @@ graph TB
   SubGraph1Flow -- Structured Data --> DoCompression1
   SubGraph1Flow -- UnStructured Data --> DoCompression2
   DoCompression1 -- return[Return Data back as BYTE array]
-  DoCompression2 -- return
+  DoCompression2 -- return[Return Data back as BYTE array]
   end
 
   subgraph "Shell Program"
