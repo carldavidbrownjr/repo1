@@ -67,7 +67,7 @@ graph TB
   end
 
   subgraph "Shell Program"
-  Node1[Node 1] --> Node2[Node 2]
+  userinput[Node 1] --> Node2[Node 2]
   Node2 --> SubGraph1[Jump to SubGraph1]
   SubGraph1 --> FinalThing[Final Thing]
 end
