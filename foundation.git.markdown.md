@@ -66,9 +66,9 @@ graph TB
 
   SubGraph1 --> SubGraph1Flow
   subgraph "Compress Data"
-  SubGraph1Flow(SubNode 1)
-  SubGraph1Flow -- Structured Data -- DoCompression1 --> return[Return Data Structure]
-  SubGraph1Flow -- UnStructured Data -- DoCompression2 --> return[Return Data Structure]
+  SubGraph1Flow(CHUNKED?)
+  SubGraph1Flow -- Chunked Data Buffer -- DoCompressionMethod1 --> return[Return Data Structure]
+  SubGraph1Flow -- Complete Data Buffer -- DoCompressionMethod2 --> return[Return Data Structure]
   end
 
 end
