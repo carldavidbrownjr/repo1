@@ -42,23 +42,6 @@ graph TD;
 ```mermaid
 graph TB
 
-  SubGraph1 --> SubGraph1Flow
-  subgraph "Maintenance Tasks"
-  SubGraph1Flow(SubNode 1)
-  SubGraph1Flow -- Choice1 --> DoChoice1
-  SubGraph1Flow -- Choice2 --> DoChoice2
-  end
-
-  subgraph "Main Graph"
-  START[START PROGRAM] --> HSKP[M]
-  MAINTENANCE--> HSKP[run]
-  SubGraph1 --> END_PRGROGRAM[STOP PROGRAM]
-end
-```
-
-```mermaid
-graph TB
-
   subgraph "Shell Program"
   userinput[Get Program Arguments] --> SubGraph1[Jump to Compression Class]
   SubGraph1 --> printReport[Print Log Report]
