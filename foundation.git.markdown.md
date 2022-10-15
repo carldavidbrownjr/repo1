@@ -8,8 +8,8 @@ GitLab Markdown Notes
    1. [~] Usable Enterprise Relational Diagrams
 
 >>>
-* block
-- quotes
+block
+quotes
 >>>
 HTML Equivelent of an UNORDERED LIST is Hyphen.
 
