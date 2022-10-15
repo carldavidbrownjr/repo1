@@ -24,5 +24,4 @@ graph TD;
   START-->RUN_PROGRAM;
   RUN_PROGRAM-->RUN_TRUE;
   RUN_PROGRAM-->RUN_FALSE;
-end
 ```
