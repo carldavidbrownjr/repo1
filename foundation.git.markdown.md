@@ -33,7 +33,7 @@ graph TB
   end
 
   subgraph "Main Graph"
-  START[START PROGRAM] --> Node2[Node 2]
+  START[START PROGRAM] --> MAINTENANCE[Check Maintenance Items]
   Node2 --> SubGraph1[Jump to SubGraph1]
   SubGraph1 --> END_PRGROGRAM[STOP PROGRAM]
 end
