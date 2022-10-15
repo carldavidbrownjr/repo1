@@ -68,7 +68,7 @@ graph TB
 
   subgraph "Shell Program"
   userinput[Get Program Arguments] --> SubGraph1[Jump to Compression Class]
-  SubGraph1 --> FinalThing[Final Thing]
+  SubGraph1 --> endprg[Exit Program]
 end
 ```
 ---
