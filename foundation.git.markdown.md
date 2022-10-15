@@ -1,10 +1,10 @@
 HTML Equivelents
 
-<OL>
+<UL>
 	<LI>Cat</LI>
 	<LI>Dog</LI>
 	<LI>Turtle</LI>
-</OL>
+</UL>
 
 - Cat
 - Dog
