@@ -53,6 +53,7 @@ graph TB
   SubGraph1Flow -- Chunked Data Buffer -- DoCompressionMethod1 --> return[Return Data Structure]
   SubGraph1Flow -- Complete Data Buffer -- DoCompressionMethod2 --> return[Return Data Structure]
   end
+  SubGraph1Flow->SubGraph1
 
 end
 ```
