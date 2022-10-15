@@ -11,7 +11,7 @@
 block
 quotes
 >>>
-HTML Equivelent of an UNORDERED LIST is <kbd>-</kbd> or <kbd>*</kbd> or <kbd>+</kbd>
+HTML Equivelent of an UNORDERED `<UL>` is <kbd>-</kbd> or <kbd>*</kbd> or <kbd>+</kbd>
 
 <UL>
 	<LI>Cat</LI>
