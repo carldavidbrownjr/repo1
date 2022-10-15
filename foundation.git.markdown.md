@@ -66,3 +66,8 @@ graph TB
 end
 ```
 ---
+Tables
+|col1|col2|col3|
+|a|b|c|
+|1||3|
+---
