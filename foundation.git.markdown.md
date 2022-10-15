@@ -1,6 +1,6 @@
 #GitLab Markdown Notes
 ---
-Task Lists
+##Task Lists
 1. [X] Unordered List
 1. [~] Add Extra Features free of charge to customer.
 1. [ ] Graphing
@@ -8,7 +8,7 @@ Task Lists
    1. [ ] Advanced Mermaid Chart
    1. [~] Usable Enterprise Relational Diagrams
 ---
-HTML Equivelent of an UNORDERED `<UL><LI></LI></UL>` is <kbd>-</kbd> or <kbd>*</kbd> or <kbd>+</kbd>
+##HTML Equivelent of an UNORDERED `<UL><LI></LI></UL>` is <kbd>-</kbd> or <kbd>*</kbd> or <kbd>+</kbd>
 
 <UL>
 	<LI>Cat</LI>
@@ -20,7 +20,7 @@ HTML Equivelent of an UNORDERED `<UL><LI></LI></UL>` is <kbd>-</kbd> or <kbd>*</
 - Dog
 - Turtle
 ---
-SIMPLE MERMAID FLOWCHART
+##SIMPLE MERMAID FLOWCHART
 ```mermaid
 graph TD;
   START-->MAIN_LOOP_EVALUATION;
@@ -31,7 +31,7 @@ graph TD;
   MAIN-->RUN_PROCESSES;
   MAIN-->MAIN_LOOP_EVALUATION;
 ```
-ADVANCED MERMAID FLOWCHART
+##ADVANCED MERMAID FLOWCHART
 ```mermaid
 graph TB
 
