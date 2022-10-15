@@ -64,7 +64,6 @@ graph TB
   SubGraph1Flow(SubNode 1)
   SubGraph1Flow -- Structured Data -- DoCompression1 --> return[Return Data Structure]
   SubGraph1Flow -- UnStructured Data -- DoCompression2 --> return[Return Data Structure]
-  return[Return Data Structure] --> SubGraph1
   end
 
   subgraph "Shell Program"
