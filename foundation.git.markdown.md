@@ -17,8 +17,8 @@
 </UL>
 >>>
 - Cat
-- Dog
-- Turtle
++ Dog
+* Turtle
 ---
 ##SIMPLE MERMAID FLOWCHART
 ```mermaid
