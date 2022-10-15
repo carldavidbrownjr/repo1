@@ -1,6 +1,7 @@
 # GitLab Markdown Notes
 Citations:
-* Lab, G. (n.d.). *Gitlab flavored markdown (GLFM).* GitLab. Retrieved October 15, 2022, from 
+Lab, G. (n.d.). *Gitlab flavored markdown (GLFM).* GitLab. Retrieved October 15, 2022, from 
+
     https://docs.gitlab.com/ee/user/markdown.html 
 
 [made from gitlab documention](https://docs.gitlab.com/ee/user/markdown.html "GitLab
