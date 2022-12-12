@@ -12,7 +12,8 @@ These are pre-built games with built-in tutorials that you hack at
   look for learnings
   templates need downloaded
     some require additional EULA
-    
+  
+  Template has instructions to learn.
 
 ----
 ## UNITY ESSENTIALS
