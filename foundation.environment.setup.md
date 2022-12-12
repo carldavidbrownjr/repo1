@@ -67,7 +67,7 @@ get add myfile.ext
 ```
 git commit -m "[task#] initial commit"
 ```
-[TOC](#TABLE-OF-CONTENTS)
+#### [TOC](#TABLE-OF-CONTENTS)
 ----
 # Install Git for Windows
 
@@ -103,8 +103,10 @@ cat ~/.ssh/id_rsa.pub
 * Title: Meaningful title for this key. Technical Debt.
 * Key: Past public key data here.
 * {Add SSH KEY}
-
+#### [TOC](#TABLE-OF-CONTENTS)
+----
 # Test github
 ```
 ssh -T git@github.com
 ```
+#### [TOC](#TABLE-OF-CONTENTS)
