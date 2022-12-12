@@ -1,3 +1,4 @@
+# TABLE OF CONTENTS
 [Install GIT for Windows](#Install-Git-for-Windows)
 
 # Clone an existing repository
@@ -66,6 +67,7 @@ get add myfile.ext
 ```
 git commit -m "[task#] initial commit"
 ```
+[TOC](#TABLE-OF-CONTENTS)
 ----
 # Install Git for Windows
 
@@ -73,6 +75,7 @@ open command prompt and run the following command.
 ```
 winget install --id Git.Git -e --source winget
 ```
+[TOC](#TABLE-OF-CONTENTS)
 ----
 # Setup ssh key
 open Git Bash
