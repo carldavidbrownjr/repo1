@@ -113,9 +113,16 @@ cat ~/.ssh/id_rsa.pub
 ssh -T git@github.com
 ```
 #### [TOC](#TABLE-OF-CONTENTS)
-# COMMAND LINE ONE LINER
+### COMMAND LINE ONE LINER
 ```
 git add . & git commit -m "." & git push
 ```
+### COMMAND LINE SEPARATE
+```
+git add .
+git commit -m "."
+git push
+```
+
 #### [TOC](#TABLE-OF-CONTENTS)
 ----
