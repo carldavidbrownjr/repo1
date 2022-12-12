@@ -6,35 +6,21 @@ cd <<A NAME TO REMEMBER WHAT THIS REPO IS>>
 git clone https://github.com/userAccount/project
 ```
 ----
-####################################################################################################
-#BEGIN:create a new repository on command line
-####################################################################################################
+# Create a new repository on command line
+```
 echo "# text for file" >> README.md
 git init
 git add README.md
 git branch -M main
 git remote add origin https://github.com/yourGitHubAccount/Hello-World.git
 git push -u origin main
-####################################################################################################
-#*END*:create a new repository on command line
-####################################################################################################
-<CRLF>
-<CRLF>
-<CRLF>
-<CRLF>
-####################################################################################################
-#BEGIN:push an existing repository from command line
-####################################################################################################
+```
+# Push an existing repository from command line
+```
 git remote add origin https://github.com/yourGitHubAccount/Hello-World.git
 git branch -M main
 git push -u origin main
-####################################################################################################
-#*END*:push an existing repository from command line
-####################################################################################################
-<CRLF>
-<CRLF>
-<CRLF>
-<CRLF>
+```
 ####################################################################################################
 #BEGIN:import code from another repository
 ####################################################################################################
