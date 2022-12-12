@@ -1,8 +1,11 @@
 # Clone an existing repository
 
 cd <<THE ROOT FOLDER FOR SOURCE CODE>>
+
 mkdir <<A NAME TO REMEMBER WHAT THIS REPO IS>>
+
 cd <<A NAME TO REMEMBER WHAT THIS REPO IS>>
+
 git clone https://github.com/userAccount/project
 ----
 ####################################################################################################
