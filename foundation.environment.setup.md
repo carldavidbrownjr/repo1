@@ -28,39 +28,39 @@ git push -u origin main
 import code
 ```
 ----
-# Common Commands
+## Common Commands
 
-## List all variables set in config file, along with their values.
+### List all variables set in config file, along with their values.
 ```
 git config --list
 ```
-## Configure git for your ident
+### Configure git for your ident
 ```
 git config --global user.email "_your_email@example.com_"
 git config --global user.name "_yourName_"
 ```
-## view git commit log
+### view git commit log
 ```
 git log
 ```
-## Check status of project; displays changed files since last check
+### Check status of project; displays changed files since last check
 ```
 git status
 ```
-## Get difference since last commit
+### Get difference since last commit
 ```
 git diff
 ```
-## Check file changes since last commit
+### Check file changes since last commit
 ```
 get status
 ```
-## Add files to commit
+### Add files to commit
 ```
 get add . 
 get add myfile.ext
 ```
-## Create commit
+### Create commit
 ```
 git commit -m "[task#] initial commit"
 ```
