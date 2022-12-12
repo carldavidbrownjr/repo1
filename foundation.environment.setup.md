@@ -1,3 +1,5 @@
+[Install GIT for Windows](#Install-Git-for-Windows)
+
 # Clone an existing repository
 ```
 cd <<THE ROOT FOLDER FOR SOURCE CODE>>
@@ -28,7 +30,7 @@ git push -u origin main
 import code
 ```
 ----
-## Common Commands
+# Common Commands
 
 ### List all variables set in config file, along with their values.
 ```
