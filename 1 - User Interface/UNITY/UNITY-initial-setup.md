@@ -1,2 +1,3 @@
 1. [DOWNLOAD UNITY HUB](https://unity.com/download)
-----
+2. OPEN UNITY HUB
+3. SIGN IN WITH UNITY ID
