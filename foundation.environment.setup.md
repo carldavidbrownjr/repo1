@@ -75,7 +75,7 @@ open command prompt and run the following command.
 ```
 winget install --id Git.Git -e --source winget
 ```
-[TOC](#TABLE-OF-CONTENTS)
+#### [TOC](#TABLE-OF-CONTENTS)
 ----
 # Setup ssh key
 open Git Bash
