@@ -8,6 +8,7 @@ mkdir <<A NAME TO REMEMBER WHAT THIS REPO IS>>
 cd <<A NAME TO REMEMBER WHAT THIS REPO IS>>
 git clone https://github.com/userAccount/project
 ```
+#### [TOC](#TABLE-OF-CONTENTS)
 ----
 # Create a new repository on command line
 ```
@@ -18,6 +19,7 @@ git branch -M main
 git remote add origin https://github.com/yourGitHubAccount/Hello-World.git
 git push -u origin main
 ```
+#### [TOC](#TABLE-OF-CONTENTS)
 ----
 # Push an existing repository from command line
 ```
@@ -25,6 +27,7 @@ git remote add origin https://github.com/yourGitHubAccount/Hello-World.git
 git branch -M main
 git push -u origin main
 ```
+#### [TOC](#TABLE-OF-CONTENTS)
 ----
 # Import code from another repository
 ```
@@ -110,3 +113,9 @@ cat ~/.ssh/id_rsa.pub
 ssh -T git@github.com
 ```
 #### [TOC](#TABLE-OF-CONTENTS)
+# COMMAND LINE ONE LINER
+```
+git add . & git commit -m "." & git push
+```
+#### [TOC](#TABLE-OF-CONTENTS)
+----
