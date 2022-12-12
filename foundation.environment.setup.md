@@ -89,19 +89,19 @@ or
 ```
 ssh-keygen -t ed25519 -C "_your_email@example.com_"
 ```
-#check if ssh agent is enabled
+check if ssh agent is enabled
 ```
 eval "$(ssh-agent -s)"
 ```
-#add ssh key to agent
+add ssh key to agent
 ```
 ssh-add ~/.ssh/id_rsa
 ```
-#cat public key to screen for copypasta to github
+cat public key to screen for copypasta to github
 ```
 cat ~/.ssh/id_rsa.pub
 ```
-#*add cat output to github
+Add cat output to github
 [https://github.com/settings/keys]
 * Title: Meaningful title for this key. Technical Debt.
 * Key: Past public key data here.
