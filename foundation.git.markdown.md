@@ -27,6 +27,13 @@ Lab, G. (n.d.). *Gitlab flavored markdown (GLFM).* GitLab. Retrieved October 15,
    1. [~] Usable Enterprise Relational Diagrams
 
 ---
+
+## URL ANCHORS AND LINKS
+```
+[display value for url](#achnor-in-document-with-spaces-replaced-by-hyphen] 
+```
+
+----
 ## SIMPLE MERMAID FLOWCHART
 ```mermaid
 graph TD;
